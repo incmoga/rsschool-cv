@@ -1,3 +1,4 @@
+![avatar](/assets/avatar.png)
 # Semizhonov Maksim #
 
 ## Contact information
