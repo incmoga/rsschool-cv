@@ -1,11 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <h1>CV</h1>
+    <header class="header">
+        <div class="container">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="#Contact" class="menu__link">Contact</a></li>
+                    <li class="menu__item"><a href="#About" class="menu__link">About</a></li>
+                    <li class="menu__item"><a href="#Skills" class="menu__link">Skills</a></li>
+                    <li class="menu__item"><a href="#Education" class="menu__link">Education</a></li>
+                    <li class="menu__item"><a href="#Code" class="menu__link">Code</a></li>
+                    <li class="menu__item"><a href="#Project" class="menu__link">Project</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="cols-wrapper">
+                <div class="col-left">
+                    <section class="about">
+                        <img src="./assets/avatar.png" alt="avatar" class="about__avatar">
+                        <h2 class="about__title">ABOUT ME</h2>
+                        <p class="about__text">
+                            As beginner in frontend development, I'm building on the foundation my previous career as an
+                            engineer. My previous work
+                            taught me discipline, which I now use to master new technologies like React and JavaScript.
+                            I love the "magic" of
+                            turning code into dynamic user experiences. My goal is to become a skilled frontend
+                            developer.
+                        </p>
+                    </section>
+                    <section class="skills">
+                        <h2 class="skills__title">Skills and Proficiency</h2>
+                        <ul class="skills__list">
+                            <li class="skills__category">
+                                Programming Languages:
+                                <ul class="skills__sublist">
+                                    <li class="sub__item">
+                                        <i class="devicon-html5-plain colored"></i> HTML5,
+                                        <i class="devicon-css3-plain colored"></i> CSS3,
+                                        <i class="devicon-javascript-plain colored"></i> JavaScript(ES6+)
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="skills__category">
+                                Frameworks and Libraries:
+                                <ul class="skills__sublist">
+                                    <li class="sub__item">
+                                        <i class="devicon-react-original colored"></i> React (basic knowledge),
+                                        <i class="devicon-axios-plain colored"></i> Axios,
+                                        <i class="devicon-antdesign-plain colored"></i> Ant Design
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="skills__category">
+                                Preprocessors:
+                                <ul class="skills__sublist">
+                                    <li class="sub__item">
+                                        <i class="devicon-sass-original colored"></i> SASS/SCSS
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="skills__category">
+                                Methodologies:
+                                <ul class="skills__sublist">
+                                    <li class="sub__item">BEM</li>
+                                </ul>
+                            </li>
+                            <li class="skills__category">
+                                Version Control:
+                                <ul class="skills__sublist">
+                                    <li class="sub__item">
+                                        <i class="devicon-git-plain colored"></i> GIT,
+                                        <i class="devicon-github-original colored"></i> GitHub
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="skills__category">
+                                Development Tools:
+                                <ul class="skills__sublist">
+                                    <li class="sub__item">
+                                        <i class="devicon-vscode-plain colored"></i> VS Code,
+                                        <i class="devicon-figma-plain colored"></i> Figma,
+                                        <i class="devicon-bash-plain colored"></i> Bash/Unix Shell
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="skills__category">
+                                Other:
+                                <ul class="skills__sublist">
+                                    <li class="sub__item">
+                                        <i class="devicon-webpack-plain colored"></i> Basic understading of Webpack,
+                                        <i class="devicon-vitejs-plain colored"></i> Vite,
+                                        REST API integration
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="language">
+                        <h2 class="language__title">
+                            Language
+                        </h2>
+                        <div class="language__wrapper">
+                            <div class="language__item">
+                                <span class="language__name">Russian</span>
+                                <span class="language__level">Mother tongue</span>
+                            </div>
+                            <div class="language__item">
+                                <span class="language__name">English</span>
+                                <span class="language__level">Intermediate</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-right">
+                    <section class="cv-title">
+                        <h1 class="cv-title__name">Semizhonov <br> Maksim</h1>
+                        <p class="cv-title__job-title">Frontend developer</p>
+                    </section>
+                    <section class="contacts">
+                        <h2 class="contacts__title">Contact</h2>
+                        <ul class="contacts__list">
+                            <li class="contacts__item">
+                                <img src="./assets/phone-svgrepo-com.svg" alt="" class="contacts__icon">
+                                <a href="tel:+79135382755">+7&nbsp;(913)&nbsp;538&#8209;27&#8209;55</a>
+                            </li>
+                            <li class="contacts__item">
+                                <img src="./assets/email-svgrepo-com.svg" alt="" class="contacts__icon">
+                                <a href="mailto:m.a.semizhonov@gmail.com">m.a.semizhonov@gmail.com</a>
+                            </li>
+                            <li class="contacts__item">
+                                <img src="./assets/github-svgrepo-com.svg" alt="" class="contacts__icon">
+                                <a href="https://github.com/incmoga" rel="me">GitHub</a>
+                            </li>
+                            <li class="contacts__item">
+                                <img src="./assets/telegram-svgrepo-com.svg" alt="" class="contacts__icon">
+                                <a href="https://t.me/semizhonov" rel="me">Telegram</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="education">
+                        <h2 class="education__title">Education</h2>
+                        <ul class="education__list">
+                            <li class="education__category">
+                                Higher education
+                                <ul class="education__sublist">
+                                    <li class="education__subitem">
+                                        <span>Tomsk Polytechnic University, 2016</span>
+                                        <span>Specialist Degree (equivalent to a Master's Degree) in Geophysical Methods
+                                            of Wells Research</span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="education__category">
+                                Courses
+                                <ul class="education__sublist">
+                                    <li class="education__subitem">
+                                        <span>RS Schools Course:</span>
+                                        <span>«JavaScript/Front-end. Stage 1»</span>
+                                    </li>
+                                    <li class="education__subitem">
+                                        <span>The Odin Project:</span>
+                                        <span>(HTML, CSS, JavaScript)</span>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="https://github.com/incmoga">Maxim Semizhonov</a>
+        <div>2026</div>
+        <a href="https://rs.school/courses/javascript">
+            <img src="./assets/rs-school-logo.svg" alt="logo-school">
+        </a>
+    </footer>
 </body>
+
 </html>
